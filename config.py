@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "28761448"))
 API_HASH = os.environ.get("API_HASH", "cb3ce6ccb198a8a315ea520a3c6d7248")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1011905973898"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001905973898"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5876546010"))
@@ -32,7 +32,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://xenfilebot:xenfilebot@clu
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1011721074956"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001721074956"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
